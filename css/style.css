@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: 'Inter';
+	src: url("../font/Inter/Inter-VariableFont_slnt,wght.ttf") format('truetype');
+}
+
+@font-face{
+	font-family: 'Open_Sans';
+	src: url("../font/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+}
+
+
+header{
+	background-color: #1A1F38;
+	margin-bottom: auto;
+}
+
+body{
+	background-color: #EFF2F9;
+	font-family: 'Open_Sans', sans-serif;
+	min-height: 100vh;
+	display: grid;
+}
+
+#portfolio{
+	padding: 2% 1%;
+}
+
+.presentacion{
+	border-radius: 10px;
+	width: 100%;
+	margin: 1%;
+	position: relative;
+}
+
+
+h2{
+	font-family: 'Inter', sans-serif;
+	font-size: 120%;
+	text-align: center;
+	padding: 2%;
+	font-weight: 500;
+	color:  #1A1F38;
+}
+
+button.navbar-toggler:focus{
+	color: transparent;
+}
+
+.la-bars{
+	color: #EFF2F9;
+	font-size: 120%;
+}
+
+.la-bars:hover, .la-bars:focus{
+	color: #F2D768;
+	font-size: 120%;
+}
+
+footer{
+	background-color:  #1A1F38;
+	padding: 0.15%;
+	margin-top: auto;
+}
+
+footer p{
+	font-family: 'Open_Sans', sans-serif;
+	color:#A4ACBE;
+	font-size: 100%;
+	font-weight: 600;
+	text-align: center;
+	padding: 1%;
+}
+
+/*página de pequeño visitante*/
+
+#hero-visitante, #scenes, #hero-sawyer{
+	padding: 1%;
+	margin: 1%
+}
+
+
+#hero-visitante h2, #about h2, #hero-sawyer h2{
+	font-size: 1.6rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	text-align: left;
+	margin: 0.5% 0%;
+	padding: 2% 0% 1%;
+}
+
+#hero-visitante h3, #about h3, #hero-sawyer h3{
+	font-size: 1.1rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	text-align: left;
+	margin: 0% 0% 0%;
+	padding: 0% 0% 2%;
+}
+
+#hero-visitante p, #about p, #hero-sawyer p{
+	font-family: 'Open_Sans', sans-serif;
+	font-size: 1.05rem;
+	margin: 1% 0%;
+	color: #0D101C;
+}
+
+ #hero-visitante em,  #about em, #hero-sawyer em{
+	font-family: 'Open_Sans', sans-serif;
+	font-size: 1.05rem;
+	margin: 1% 0%;
+	color: #0D101C;
+}
+
+#hero-visitante img, #hero-sawyer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 2%;
+}
+
+#hero-visitante a, #hero-sawyer a{
+	color: #818DC5;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 1.05rem;
+	
+}
+
+#scenes h1, #background h1, #turnaround h1, #expressions h1{
+	font-size: 1.75rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	margin: 0.5% 0%;
+	padding: 1% 0% 1%;
+}
+
+#scenes img, #background img{
+	border-radius: 2%;
+	margin: 2% 0%;
+}
+
+#festivals{
+	background-color: #2D3562;
+	padding: 10% 0%; 
+	text-align: center;
+	margin: 0;
+	color: #EFF2F9;
+}
+
+#festivals h1{
+	font-size: 1.75rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	margin: 0.5% 0.5%;
+	padding: 1% 2% 1%;
+}
+
+#festivals h3{
+	font-size: 1.25rem;
+	font-family: 'Open_Sans', sans-serif;
+	margin: 0.5% 0.5%;
+	padding: 1% 2% 1%;
+}
+
+#turnaround img, #expressions img{
+	width: 100%;
+	object-fit: cover;
+	border-radius: 2%;
+	margin: 2% 0%;
+}
+
+/*About me*/
+#about{
+	padding: 7% 1%;
+	margin: 1%;
+}
+
+#about img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 2%;
+}
+
+/*Sawyer*/
+#gameplay video, #gameplay source{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 2%;
+	margin: auto;
+	padding: 0.5% 0%;
+}
+
+#gameplay h1, #turn-sawyer h1, #enemy_anim h1, #boss_anim h1, #concept h1{
+	font-size: 1.75rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	margin: 0.5% 0%;
+	padding: 1% 0% 1%;
+}
+
+#turn-sawyer img, #enemy_anim img, #boss_anim img, #concept img, #concept img{
+	width: 100%;
+	object-fit: cover;
+	border-radius: 2%;
+	margin: 2% 0%;
+}
+
+#enemy_anim h3, #boss_anim h3, #concept h3{
+	font-size: 1.3rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	margin: 2% 0%;
+	padding: 1% 0% 1%;
+}
